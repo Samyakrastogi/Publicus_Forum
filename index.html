@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/styles.css" />
+
+    <link rel="stylesheet" href="./asset/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="asset/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="asset/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="asset/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Publicus Forum</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html"
+        ><img
+          src="asset/images/Resize_Publicious_logo.jpg"
+          alt="publicus forum"
+      /></a>
+      <div id="space"></div>
+      <div id="search" style="display: flex" ;>
+        <form action="">
+          <input type="search" name="search" id="search-box"
+          placeholder="search" style="margin-right: 20px" />
+          <button type="submit" id="submit" style="display: none"></button>
+        </form>
+      </div>
+      <div id="home"><a href="index.html">Home</a></div>
+      <div id="blog"><a href="blog.html">Blog</a></div>
+      <div id="contact"><a href="contact.html">Contact</a></div>
+      <div id="about"><a href="about-us.html">About Us</a></div>
+    </nav>
+    <main class="container">
+      <article>
+        <!-- Slideshow container -->
+
+        <br />
+
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img
+              src="asset/images/lgbtq.jpg"
+              style="width: 100%; height: 400px"
+            />
+            <div class="text" style="font-size: xx-large; font-weight: bolder">
+              Rights of the members of LGBTQ
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img
+              src="asset\images\netflix.jpg"
+              style="width: 100%; height: 400px"
+            />
+            <div class="text" style="font-size: xx-large; font-weight: bolder">
+              Sharing friend’s password without their knowledge? Know the
+              consequences
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img
+              src="asset\images\prostitution.jpg"
+              style="width: 100%; height: 400px"
+            />
+            <div class="text" style="font-size: xx-large; font-weight: bolder">
+              What they don’t want you to know about prostitution laws?
+            </div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="cardData">
+          <div class="card">
+            <div class="overlay">
+              <div class="content">
+                <h2><span class="name">Tokyo</span></h2>
+                <p>
+                  Tokyo is the capital of Japan.Located at the head of Tokyo Bay
+                </p>
+                <a href="#" alt="not found">Explore more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-two">
+            <div class="overlay">
+              <div class="content">
+                <h2><span class="name">Las Vegas</span></h2>
+                <p>
+                  Las Vegas is an internationally renowned major resort city
+                </p>
+                <a href="#">Explore more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-three">
+            <div class="overlay">
+              <div class="content">
+                <h2><span class="name">London</span></h2>
+                <p>The capital of England and the United Kingdom</p>
+                <a href="#">Explore more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardData">
+          <div class="card card-four">
+            <div class="overlay">
+              <div class="content">
+                <h2><span class="name">Tokyo</span></h2>
+                <p>
+                  Tokyo is the capital of Japan.Located at the head of Tokyo Bay
+                </p>
+                <a href="#">Explore more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-five">
+            <div class="overlay">
+              <div class="content">
+                <h2><span class="name">Las Vegas</span></h2>
+                <p>
+                  Las Vegas is an internationally renowned major resort city
+                </p>
+                <a href="#">Explore more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card card-six">
+            <div class="overlay">
+              <div class="content">
+                <h2><span class="name">London</span></h2>
+                <p>The capital of England and the United Kingdom</p>
+                <a href="#">Explore more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="streetsmart-box">
+          <div class="streetsmart-container">
+            <div class="img-part">
+              <img src="asset\images\ssl1.jpg" alt="" />
+            </div>
+            <div class="p-part">
+              <h1>
+                Online Petitions – Are they presented before courts of law?
+              </h1>
+              <p>
+                Do these online petitions land before the courts of law? Also,
+                shouldn’t you know your legal position, if such petitions
+                actually go to courts? Lorem, ipsum dolor sit amet consectetur
+                adipisicing elit. Sed numquam reiciendis fugit, ex quam sequi
+                dolores dolor voluptate, voluptas soluta corrupti non magnam
+                asperiores eum quas! Ex praesentium distinctio obcaecati. Fuga
+                delectus ullam inventore ex earum fugit accusantium facilis quod
+                doloremque, consequatur eum eligendi nisi! Sunt, provident vero
+                qui, ipsum impedit et eveniet accusamus aliquid deleniti
+                voluptatem delectus, blanditiis fuga. Id doloribus totam facere
+              </p>
+            </div>
+          </div>
+          <div class="streetsmart-container">
+            <div class="img-part">
+              <img src="asset\images\ssl2.jpg" alt="" />
+            </div>
+            <div class="p-part">
+              <h1>Playing cards on Diwali – Offensive Gambling or not?</h1>
+              <p>
+                Its fun playing Teen Patti on Diwali night right? Gathering
+                friends and family, betting money, You may think, “What fun we
+                are having!” While participating in poker, rummy or betting or
+                even online gambling, Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Corporis ab voluptatum quae assumenda tempore,
+                deleniti dignissimos vero est id iure quisquam ipsam labore
+                provident? Quia consequuntur voluptatem dignissimos reiciendis
+                quod?
+              </p>
+            </div>
+          </div>
+          <div class="streetsmart-container">
+            <div class="img-part">
+              <img src="asset\images\ssl3.jpg" alt="" />
+            </div>
+            <div class="p-part">
+              <h1>
+                Under what Legal Provisions can Police conduct Raids at Hotels?
+              </h1>
+              <p>
+                Are we safe in the hotel or lodge? Will the owner or manager of
+                the hotel or lodge call the police? Will the police raid the
+                hotel? What if we Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Sequi vero, accusantium enim modi similique
+                velit sit ad, quia quod dolorem molestiae dignissimos
+                necessitatibus natus ducimus obcaecati fuga at officia totam!
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+      <aside class="aside">
+        <section class="Asec-1">
+          <p class="Asec-heading">Recent Posts</p>
+          <hr color="#457B9D" class="Line" />
+
+          <div class="Asec-1-Container">
+            <div class="cirImg" id="Img-1"></div>
+            <aside id="cirImg-Content">
+              <a href="#">Under what Legal Provisions can Police</a>
+              <p>21 July 2021</p>
+            </aside>
+          </div>
+
+          <div class="Asec-1-Container">
+            <div class="cirImg" id="Img-2"></div>
+            <aside id="cirImg-Content">
+              <a href="#">Online Petitions – Are they presented before</a>
+              <p>21 July 2021</p>
+            </aside>
+          </div>
+
+          <div class="Asec-1-Container">
+            <div class="cirImg" id="Img-3"></div>
+            <aside id="cirImg-Content">
+              <a href="#">Playing cards on Diwali – Offensive Gambling or</a>
+              <p>21 July 2021</p>
+            </aside>
+          </div>
+        </section>
+
+        <section class="Asec-2">
+          <p class="Asec-heading">Newsletter</p>
+          <hr color="#457B9D" class="Line" />
+          <div class="Newsletter-Container">
+            <p>
+              Subscribe to our newsletter and stay up to date with all events
+              coming straight in your mailbox:
+            </p>
+
+            <label for="Email">Email</label>
+            <input
+              type="text"
+              id="Email"
+              size="30"
+              placeholder="Your Email address is.."
+            />
+
+            <input type="checkbox" name="" id="check" />
+            <label for="check"
+              >By continuing, you accept the privacy policy</label
+            >
+
+            <button>Subscribe to our Newsletter</button>
+          </div>
+        </section>
+
+        <section class="Asec-3">
+          <p class="Asec-heading">Banner</p>
+          <hr color="#457B9D" class="Line" />
+          <div class="banner"></div>
+        </section>
+        <section class="Asec-4">
+          <p class="Asec-heading">Popular Posts</p>
+          <hr color="#457B9D" class="Line" />
+
+          <div class="Asec-1-Container">
+            <div class="cirImg" id="Img-1"></div>
+            <aside id="cirImg-Content">
+              <a href="#">Under what Legal Provisions can Police</a>
+              <p>21 July 2021</p>
+            </aside>
+          </div>
+
+          <div class="Asec-1-Container">
+            <div class="cirImg" id="Img-2"></div>
+            <aside id="cirImg-Content">
+              <a href="#">Online Petitions – Are they presented before</a>
+              <p>21 July 2021</p>
+            </aside>
+          </div>
+
+          <div class="Asec-1-Container">
+            <div class="cirImg" id="Img-3"></div>
+            <aside id="cirImg-Content">
+              <a href="#">Playing cards on Diwali – Offensive Gambling or</a>
+              <p>21 July 2021</p>
+            </aside>
+          </div>
+
+          <section class="Asec-5">
+            <p class="Asec-heading">Banner</p>
+            <hr color="#457B9D" class="Line" />
+            <div class="banner"></div>
+          </section>
+        </section>
+      </aside>
+    </main>
+    <footer>
+      <section class="top">
+        <div class="sec1">
+          <h2>Publicus forum</h2>
+          <p>
+            Disclaimer: This website is informational in nature and is not a
+            substitute for professional legal consultation. Lawbriefcase takes
+            no liability for any loss caused to you by the use of this website
+            or the information provided on this website. Kindly, read the Terms
+            and Conditions and Privacy Policy of the website.
+          </p>
+        </div>
+        <div class="sec2">
+          <h2>Newsletter</h2>
+          <p>Want to know your way around law without a lawyer?</p>
+          <p>
+            Subscribe to our Lawbriefcase to know the secrets no other lawyer
+            would ever tell you.
+          </p>
+
+          <h3>Email</h3>
+          <input
+            type="text"
+            placeholder="Your Email goes here"
+            name="mail"
+            required
+          />
+          <p></p>
+          <label>
+            <input type="checkbox" name="subscribe" /> By continuing, you accept
+            the privacy policy
+          </label>
+          <div class="btn">
+            <input type="button" value="Subscribe To Our Newsletter" />
+          </div>
+        </div>
+        <div class="sec3">
+          <h2>instagram feed</h2>
+          <a href="#"><img src="./asset/images/2.jpg" alt="" /></a>
+          <a href="#"><img src="./asset/images/3.jpg" alt="" /></a>
+          <a href="#"><img src="./asset/images/4.jpg" alt="" /></a>
+          <a href="#"><img src="./asset/images/5.jpg" alt="" /></a>
+          <a href="#"><img src="./asset/images/6.jpg" alt="" /></a>
+          <a href="#"><img src="./asset/images/1.jpg" alt="" /></a>
+          <input type="button" value="Load More" />
+          <input type="button" value="Follow On Instagram" />
+        </div>
+      </section>
+      <hr width="100%" />
+      <section class="bottom">
+        <div class="p1">
+          <p>© 2021 Publicus Forum All Rights Reserved.</p>
+        </div>
+        <div class="p2">
+          <a href="#"> Terms & Conditions </a>
+          <a href="#"> Privacy Policy </a>
+        </div>
+        <div class="p3">
+          <ul>
+            <li>
+              <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-google fa-lg"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./asset/css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="asset/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="asset/images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <style>
+        * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --blue: #3d5056;
+  --gray: #9da2a8;
+  --brown: #924e3b;
+  font-family: "Quicksand", sans-serif;
+}
+        body{
+            background-color: lightgray;
+        }
+        .head{
+            background-color: #9da2a8;
+            height: 500px;
+            width: 100%;
+            display: flex;
+        }
+        h1{
+            font-family: Serif;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+            display: block;
+            width: 60%;
+            font-size: 80px;
+            margin-top: 150px;
+        }
+        
+        .head{
+            background-image: url('backimg.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .touch h1{
+            font-family: Serif;
+            text-align: center;
+            color: yellow;
+            display: block;
+            
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size: 65px;
+            align-items: center;
+            margin-left: 20%;
+            
+        }
+        .touch{
+            background-image: url("/keep\ in\ touch\ preview.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 500px;
+            width: 100%;
+            
+        }
+        .touch h1{
+            line-height: 500px;
+        }
+        .touch h1{
+            margin-top: 30px;
+        }
+        .container{
+            height: 450px;
+            width: 80%;
+            margin: 15px;
+            background-color: #924e3b;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -50px;
+        }
+        #ccc{
+           margin-left: 35%;
+        }
+        .phone,.address,.email{
+            display: inline-flex;
+            color: white;
+            height: 450px;
+            width: 33%;
+            line-height: 20px;
+            text-align: center;
+            display: inline-block;
+            margin-top: 150px;
+        }
+        .container h3{
+            color: wheat;
+            text-align: center;
+
+        }
+        .intouch{
+            background-image: url("/tele.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 800px;
+            width: 100%;
+        }
+        .intouch h1{
+            text-align: center;
+            font-family: serif;
+            color: white;
+            padding-top: 100px;
+            font-size: 60px;
+
+        }
+        .intouch form{
+            text-align: center;
+        }
+        input[type=text], select, textarea {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-radius: 20px 0px 20px 0px;
+         
+        }
+        input[type=submit] {
+        width: 10%;
+        background-color: #3d5056;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 10px 0px 10px 0px;
+        cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+        background-color: #45a049;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html"
+          ><img src="asset/images/Resize_Publicious_logo.jpg" alt="publicius forum"
+        /></a>
+        <div id="space"></div>
+        <div id="search" style="display:flex";>
+          <form action="">
+            <input
+              type="search"
+              name="search"
+              id="search-box"
+              placeholder="search"
+            />
+            
+            <button type="submit" id="submit" style="display:none"></button>
+          </form>
+        </div>
+        <div id="home"><a href="index.html">Home</a></div>
+        <div id="blog"><a href="blog.html">Blog</a></div>
+        <div id="contact"><a href="contact.html">Contact</a></div>
+        <div id="about"><a href="about-us.html">About Us</a></div>
+      </nav>
+    <div class="head">
+        <H1 id="ccc" style="align-self:flex-start">Contact Us</H1>
+    </div>
+    </div>
+    <div class="touch">
+        <h1>
+            KEEP IN TOUCH
+        </h1>
+    </div>
+    <div class="container">
+        <div class="address">
+            <i class="fa fa-address-book-o fa-2x" style="margin-bottom: 30px;"></i>
+            <h2>Address</h2>
+            <h3>Gla University</h3>
+        </div>
+        <div class="phone">
+            <i class="fa fa-mobile-phone fa-2x" style="margin-bottom: 30px;"></i> 
+            <h2>Phone</h2>
+            <h3>0987654321</h3>
+
+        </div>
+        <div class="email">
+            <i class="fa fa-paper-plane-o fa-2x" style="margin-bottom: 30px;"></i>
+            <h2>E-Mail</h2>
+            <h3>abc@gmail.com</h3>
+        </div>
+    </div>
+    <div class="intouch">
+        <h1>GET IN TOUCH</h1>
+        <form>
+            <label for="fname"></label>
+            <input type="text" id="fname" name="firstname" placeholder="Your Name Here..">
+        
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lastname" placeholder="Your Email Here..">
+        
+            <label for="country"></label>
+            <input type="text" id="lname" name="lastname" placeholder="Subject"> 
+            
+            <label for="country"></label><br>
+            <textarea class="Message" rows="8" placeholder="Message"></textarea><br>
+          
+            <input type="submit" value="Send">
+          </form>
+    </div>
+</body>
+</html>
